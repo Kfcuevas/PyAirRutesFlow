@@ -160,12 +160,12 @@ Seleccione segun su destino:
         Opcion# 2. Vuelos y destinos disponibles ("berlin", "moscow", "istanbul", "beijing", "mumbai", "cape town")
 ''')
 
-    respuestamenu = int(input("Entre numero del menu deseado: "))
+    answer1 = int(input("Entre numero del menu deseado: "))
 
-    if respuestamenu == int(1):
+    if answer1 == int(1):
         city1flightcaculator()
 
-    elif respuestamenu == int(2):
+    elif answer1 == int(2):
         city2flightcaculator()
     else:
         print("respuesta invalida")
